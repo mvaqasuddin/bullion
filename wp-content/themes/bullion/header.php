@@ -18,6 +18,7 @@
  * @since bullion
  * mvaqasuddin@gmail.com
  * skype : vaqasuddin
+ * custom wordpress theme
  */
 ?><!DOCTYPE html>
 <!--[if IE 7]>
