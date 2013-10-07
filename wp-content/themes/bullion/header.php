@@ -36,14 +36,15 @@
 	<title><?php wp_title( '|', true, 'right' ); ?></title>
 	<link rel="profile" href="http://gmpg.org/xfn/11">
 	<link rel="pingback" href="<?php bloginfo( 'pingback_url' ); ?>">
+	<script type="text/javascript" src="<?php bloginfo('template_url');?>/js/jquery.js"></script> 
+
+<script type="text/javascript" src="<?php bloginfo('template_url');?>/js/jquery-1.8.2.min.js"></script>
+<script type="text/javascript" src="<?php bloginfo('template_url');?>/js/jquery.jshowoff.min.js"></script>
+
 	<!--[if lt IE 9]>
 	<script src="<?php echo get_template_directory_uri(); ?>/js/html5.js"></script>
 	<![endif]-->
 	<?php wp_head(); ?>
-<script type="text/javascript" src="js/jquery.js"></script> 
-
-<script type="text/javascript" src="js/jquery-1.8.2.min.js"></script>
-<script type="text/javascript" src="js/jquery.jshowoff.min.js"></script>
 
 
 </head>
@@ -61,10 +62,16 @@
         
         <div class="right_nav">
         	<ul>
-            	<li><a href="#">Market News</a></li>
-                <li><a href="#">Faq</a></li>
-                <li><a href="#">About Us</a></li>
-                <li><a href="#" class="last">Contact Us</a></li>
+        	<?php 
+        	/*
+	        	* Dynamic Pages Insert
+        	*/
+        		$args = array(
+						'title_li' => '',
+						'include' => '15,17,19,21'
+					);
+        	
+        			wp_list_pages( $args ); ?>
             </ul>
         </div>
         
