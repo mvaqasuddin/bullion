@@ -10,11 +10,12 @@
  * already has tag.php for Tag archives, category.php for Category archives,
  * and author.php for Author archives.
  *
- * Learn more: http://codex.wordpress.org/Template_Hierarchy
+ * Learn more: http://www.github.com/mvaqasuddin
+ * The template for displaying 404 pages (Not Found).
  *
  * @package WordPress
- * @subpackage Twenty_Thirteen
- * @since Twenty Thirteen 1.0
+ * @subpackage bullion
+ * @since bullion
  */
 
 get_header(); ?>

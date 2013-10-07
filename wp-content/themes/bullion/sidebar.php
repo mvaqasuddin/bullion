@@ -1,12 +1,23 @@
 <?php
 /**
- * The sidebar containing the secondary widget area, displays on posts and pages.
+ * The template for displaying Archive pages.
  *
- * If no active widgets in this sidebar, it will be hidden completely.
+ * Used to display archive-type pages if nothing more specific matches a query.
+ * For example, puts together date-based pages if no date.php file exists.
+ *
+ * If you'd like to further customize these archive views, you may create a
+ * new template file for each specific one. For example, Twenty Thirteen
+ * already has tag.php for Tag archives, category.php for Category archives,
+ * and author.php for Author archives.
+ *
+ * Learn more: http://www.github.com/mvaqasuddin
+ * The template for displaying 404 pages (Not Found).
  *
  * @package WordPress
- * @subpackage Twenty_Thirteen
- * @since Twenty Thirteen 1.0
+ * @subpackage bullion
+ * @since bullion
+ * mvaqasuddin@gmail.com
+ * skype : vaqasuddin
  */
 
 if ( is_active_sidebar( 'sidebar-2' ) ) : ?>

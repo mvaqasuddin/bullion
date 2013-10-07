@@ -1,17 +1,23 @@
 <?php
 /**
- * The main template file.
+ * The template for displaying Archive pages.
  *
- * This is the most generic template file in a WordPress theme and one of the
- * two required files for a theme (the other being style.css).
- * It is used to display a page when nothing more specific matches a query.
- * For example, it puts together the home page when no home.php file exists.
+ * Used to display archive-type pages if nothing more specific matches a query.
+ * For example, puts together date-based pages if no date.php file exists.
  *
- * Learn more: http://codex.wordpress.org/Template_Hierarchy
+ * If you'd like to further customize these archive views, you may create a
+ * new template file for each specific one. For example, Twenty Thirteen
+ * already has tag.php for Tag archives, category.php for Category archives,
+ * and author.php for Author archives.
+ *
+ * Learn more: http://www.github.com/mvaqasuddin
+ * The template for displaying 404 pages (Not Found).
  *
  * @package WordPress
- * @subpackage Twenty_Thirteen
- * @since Twenty Thirteen 1.0
+ * @subpackage bullion
+ * @since bullion
+ * mvaqasuddin@gmail.com
+ * skype : vaqasuddin
  */
 
 get_header(); ?>

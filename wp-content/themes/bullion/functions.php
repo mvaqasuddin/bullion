@@ -1,27 +1,23 @@
 <?php
 /**
- * Twenty Thirteen functions and definitions.
+ * The template for displaying Archive pages.
  *
- * Sets up the theme and provides some helper functions, which are used in the
- * theme as custom template tags. Others are attached to action and filter
- * hooks in WordPress to change core functionality.
+ * Used to display archive-type pages if nothing more specific matches a query.
+ * For example, puts together date-based pages if no date.php file exists.
  *
- * When using a child theme (see http://codex.wordpress.org/Theme_Development
- * and http://codex.wordpress.org/Child_Themes), you can override certain
- * functions (those wrapped in a function_exists() call) by defining them first
- * in your child theme's functions.php file. The child theme's functions.php
- * file is included before the parent theme's file, so the child theme
- * functions would be used.
+ * If you'd like to further customize these archive views, you may create a
+ * new template file for each specific one. For example, Twenty Thirteen
+ * already has tag.php for Tag archives, category.php for Category archives,
+ * and author.php for Author archives.
  *
- * Functions that are not pluggable (not wrapped in function_exists()) are
- * instead attached to a filter or action hook.
- *
- * For more information on hooks, actions, and filters,
- * see http://codex.wordpress.org/Plugin_API
+ * Learn more: http://www.github.com/mvaqasuddin
+ * The template for displaying 404 pages (Not Found).
  *
  * @package WordPress
- * @subpackage Twenty_Thirteen
- * @since Twenty Thirteen 1.0
+ * @subpackage bullion
+ * @since bullion
+ * mvaqasuddin@gmail.com
+ * skype : vaqasuddin
  */
 
 /**
